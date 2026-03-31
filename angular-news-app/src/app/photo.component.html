@@ -1,0 +1,5 @@
+<div *ngIf="photo">
+  <h3>{{ photo.description || 'Foto de Fórmula 1' }}</h3>
+  <img [src]="photo.url" alt="F1" style="max-width: 100%; height: auto;">
+  <p>Autor: {{ photo.author }}</p>
+</div>
